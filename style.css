@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100%; 
+  /* background-color: rgb(245, 222, 151); */
+  background-image: url("hacks22_banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title{
+
+}
+.event{
+  
+}
+#cur_title{
+  background: rgba(255,255,255,0.5);
+}
+#cur_event{
+  background: rgba(255,255,255,0.5);
+
+}
+#next_title{
+  background: rgba(255,255,255,0.5);
+
+}
+#next_event{
+  background: rgba(255,255,255,0.5);
+
+}
+
+
