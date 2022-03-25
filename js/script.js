@@ -2,7 +2,7 @@
 function update(){
     console.log("lul");
     var current = new Date();
-    var cur_hours = current.getUTCHours()-5 +1; //delete +1 later   
+    var cur_hours = current.getUTCHours()-5; //delete +1 later   
     var cur_minutes = current.getUTCMinutes();
     var cur_day = 1;//current.getUTCDate();
     var days = DATA["days"];
