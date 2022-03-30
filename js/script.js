@@ -15,7 +15,7 @@ function time_format(hour, minute){
     return time_string
 }
 function update(){
-    console.log("lul");
+    // console.log("lul");
     var current = new Date();
     var cur_hours = current.getUTCHours()-5;
     var cur_minutes = current.getUTCMinutes();

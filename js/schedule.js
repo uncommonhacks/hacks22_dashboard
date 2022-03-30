@@ -2,8 +2,7 @@ var DATA = {
     "days":[
         {"day":1, "events":[
             {"hour":17,"minute":0, "text":"CSS still life"},
-            {"hour":18,"minute":30, "text":"dinner"},
-            {"hour":18,"minute":30, "text":"intro to twine games"},
+            {"hour":18,"minute":30, "text":"dinner and intro to twine games"},
             {"hour":19,"minute":30, "text":"social time with UH team"}
         ]},
         {"day":2, "events":[
