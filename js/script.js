@@ -19,7 +19,7 @@ function update(){
     var current = new Date();
     var cur_hours = current.getUTCHours()-5;
     var cur_minutes = current.getUTCMinutes();
-    var cur_day = 1;//current.getUTCDate();
+    var cur_day = current.getUTCDate();
     var days = DATA["days"];
     var cur_event = -1;
     var next_event = -1;
