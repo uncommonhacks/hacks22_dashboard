@@ -14,12 +14,19 @@ function time_format(hour, minute){
     var time_string = hour + ':' + minute + ' ' + am_pm;
     return time_string
 }
+
+
 function update(){
     // console.log("lul");
     var current = new Date();
-    var cur_hours = current.getUTCHours()-5;
+    var cur_hours = current.getUTCHours()-5; //going to CDT
     var cur_minutes = current.getUTCMinutes();
-    var cur_day = current.getUTCDate();
+    var cur_day = current.getUTCDate(); // for testing make this 1 or 2 or 3 // day of month
+    // case where UTC goes into different day
+    if (cur_hours < 0) {
+        cur_hours = cur_hours + 24;
+        cur_day = cur_day - 1;
+    }
     var days = DATA["days"];
     var cur_event = -1;
     var next_event = -1;
