@@ -66,8 +66,11 @@ function update(){
         var hour = cur_event['hour'];
 
         var minute = cur_event['minute'];
+
         var time_string = time_format(hour, minute);
         div2.innerHTML = time_string;
+
+        document.getElementById('cur_event_location').innerHTML = cur_event['location'];
     }
     if (next_event != -1) {
         var div1 = document.getElementById('next_event');
@@ -78,6 +81,7 @@ function update(){
         var minute = next_event['minute'];
         var time_string = time_format(hour, minute);
         div2.innerHTML = time_string;
+        document.getElementById('next_event_location').innerHTML = next_event['location'];
     }
     //console.log("h");
     var div = document.getElementById('current_time');

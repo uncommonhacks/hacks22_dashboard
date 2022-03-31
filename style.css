@@ -51,6 +51,10 @@ body {
 #cur_event{
    top:20vw;
 }
+#cur_event_location{
+  top:20vw;
+}
+
 
 #next_event_time{
   top:30vw;
@@ -70,22 +74,29 @@ body {
 #next_event{
    top:35vw;
 }
+#next_event_location{
+  top:35vw;
+}
 
 .title{
   position:absolute;
-  left: 25vw;
+  left: 40vw;
 }
 .description {
   position:absolute;
-  left: 30vw;
+  left: 40vw;
 }
 .time{
   position:absolute;
-  left: 10vw;
+  left: 20vw;
 }
 .bar{
   position:absolute;
-  left: 23vw;
+  left: 33vw;
+}
+.location{
+  position:absolute;
+  left: 3vw;
 }
 
 #dashboard_hacks_22{

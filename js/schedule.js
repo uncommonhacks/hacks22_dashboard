@@ -1,30 +1,30 @@
 var DATA = {
     "days":[
         {"day":1, "events":[
-            {"hour":17,"minute":0, "text":"CSS Still Life"},
-            {"hour":18,"minute":30, "text":"Dinner and Intro to Twine Games"},
-            {"hour":19,"minute":30, "text":"Social Time with UH Team"}
+            {"hour":17,"minute":0, "location":"JCL 298; GatherT 1", "text":"CSS still life"},
+            {"hour":18,"minute":30, "location":"JCL 298; GatherT 1<br>JCL 298; GatherT 1", "text":"dinner<br>intro to twine games"},
+            {"hour":19,"minute":30, "location":"JCL 298; GatherT 1", "text":"social time with UH team"}
         ]},
         {"day":2, "events":[
-            {"hour":11,"minute":0, "text":"Check-In + Sponsor Fair"},
-            {"hour":12,"minute":0, "text":"Team Formation"},
-            {"hour":1,"minute":0, "text":"Opening Ceremony"},
-            {"hour":2,"minute":0, "text":"Hacking Starts"},
-            {"hour":3,"minute":0, "text":"How Social Factors Influence Video Games"},
-            {"hour":12,"minute":0, "text":"Board Game Design"},
-            {"hour":5,"minute":0, "text":"Intro to Computational Art"},
-            {"hour":6,"minute":0, "text":"Maritime Archeology Workshop"},
-            {"hour":6,"minute":30, "text":"Dinner"},
-            {"hour":7,"minute":0, "text":"MLH Event: Slideshow Karaoke"},
-            {"hour":8,"minute":0, "text":"Mystery Event"}
+            {"hour":11,"minute":0, "location":"JCL 298; GatherT 1", "text":"check-in + sponsor fair"},
+            {"hour":12,"minute":0, "location":"JCL 298; GatherT 1", "text":"team formation"},
+            {"hour":1,"minute":0, "location":"JCL 298; GatherT 1", "text":"opening ceremony"},
+            {"hour":2,"minute":0, "location":"JCL 298; GatherT 1", "text":"hacking starts"},
+            {"hour":3,"minute":0, "location":"JCL 298; GatherT 1", "text":"how social factors influence video games"},
+            {"hour":12,"minute":0, "location":"JCL 298; GatherT 1", "text":"board game design"},
+            {"hour":5,"minute":0, "location":"JCL 298; GatherT 1", "text":"intro to computational art"},
+            {"hour":6,"minute":0, "location":"JCL 298; GatherT 1", "text":"maritime archeology workshop"},
+            {"hour":6,"minute":30, "location":"JCL 298; GatherT 1", "text":"dinner"},
+            {"hour":7,"minute":0, "location":"JCL 298; GatherT 1", "text":"MLH event: slideshow karaoke"},
+            {"hour":8,"minute":0, "location":"JCL 298; GatherT 1", "text":"mystery event"}
         ]},
         {"day":3, "events":[
-            {"hour":9,"minute":30, "text":"Morning Meditation"},
-            {"hour":11,"minute":0, "text":"Pitching Workshop"},
-            {"hour":11,"minute":30, "text":"Hacker Peer Feedback Session"},
-            {"hour":14,"minute":0, "text":"Hacking Ends"},
-            {"hour":14,"minute":0, "text":"Project Expo + Judging"},
-            {"hour":16,"minute":30, "text":"Closing Ceremony + Awards"}
+            {"hour":9,"minute":30, "location":"JCL 298; GatherT 1", "text":"morning meditation"},
+            {"hour":11,"minute":0, "location":"JCL 298; GatherT 1", "text":"pitching workshop"},
+            {"hour":11,"minute":30, "location":"JCL 298; GatherT 1", "text":"hacker peer feedback session"},
+            {"hour":14,"minute":0, "location":"JCL 298; GatherT 1", "text":"hacking ends"},
+            {"hour":14,"minute":0, "location":"JCL 298; GatherT 1", "text":"project expo + judging"},
+            {"hour":16,"minute":30, "location":"JCL 298; GatherT 1", "text":"closing ceremony + awards"}
         ]}
     ]
 }
