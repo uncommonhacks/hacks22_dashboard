@@ -9,6 +9,9 @@ body {
   background-image: url("hacks22_banner.png");
   background-size: cover;
   background-repeat: no-repeat;
+  font-size: 3vw;
+  font-family:'Rockwell';
+  color: white;
 }
 .title{
 
@@ -16,20 +19,46 @@ body {
 .event{
   
 }
+/* just says "current time */
+#current_time_div{
+  margin:5vh;
+}
+
+/* actually has time */
+#current_time{
+
+}
+#cur_event_time {
+  top:15vw;
+}
 #cur_title{
-  background: rgba(255,255,255,0.5);
+   top:15vw;
 }
 #cur_event{
-  background: rgba(255,255,255,0.5);
+   top:20vw;
+}
 
+#next_event_time{
+  top:30vw;
 }
 #next_title{
-  background: rgba(255,255,255,0.5);
-
+   top:30vw;
 }
 #next_event{
-  background: rgba(255,255,255,0.5);
+   top:35vw;
+}
 
+.title{
+  position:absolute;
+  left: 25vw;
+}
+.description {
+  position:absolute;
+  left: 30vw;
+}
+.time{
+  position:absolute;
+  left: 10vw;
 }
 
 

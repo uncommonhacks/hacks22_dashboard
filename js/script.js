@@ -1,3 +1,4 @@
+var DEBUG = true;
 
 function time_format(hour, minute){
     var am_pm;
@@ -17,7 +18,7 @@ function time_format(hour, minute){
 
 
 function update(){
-    // console.log("lul");
+    // //console.log("lul");
     var current = new Date();
     var cur_hours = current.getUTCHours()-5; //going to CDT
     var cur_minutes = current.getUTCMinutes();
@@ -27,20 +28,29 @@ function update(){
         cur_hours = cur_hours + 24;
         cur_day = cur_day - 1;
     }
+    if (DEBUG) {
+        cur_hours = 18;
+        cur_minutes = 40;
+        cur_day = 1;
+    }
     var days = DATA["days"];
+    //console.log(days);
     var cur_event = -1;
     var next_event = -1;
     for (const day of days){
+        //console.log(day['day']);
+        //console.log(cur_day);
         if (day['day'] == cur_day) {
             var events = day['events']
             for (const event of events) {
+                //console.log("h");
                 if ((cur_hours < event['hour']) || 
-                    ((cur_hours == event['hour']) && cur_minutes <= event['minutes']))
+                    ((cur_hours == event['hour']) && cur_minutes <= event['minute']))
                 {
+                    //console.log("poop");
                     next_event = event;
-                    // console.log(event);
+                    // //console.log(event);
                     break;
-                    return event;
                 }
                 else {
                     cur_event = event;
@@ -69,6 +79,7 @@ function update(){
         var time_string = time_format(hour, minute);
         div2.innerHTML = time_string;
     }
+    //console.log("h");
     var div = document.getElementById('current_time');
     div.innerHTML = time_format(cur_hours, cur_minutes);
     
