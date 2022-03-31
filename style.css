@@ -88,3 +88,14 @@ body {
   left: 23vw;
 }
 
+#dashboard_hacks_22{
+  display:block;
+  max-width:200px;
+  min-width:100px;
+  position:fixed;
+  right:10px;
+  top:10px;
+  width:10%;
+  z-index:10000;
+}
+
