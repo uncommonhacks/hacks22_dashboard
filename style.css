@@ -19,6 +19,11 @@ body {
 .event{
   
 }
+
+.bar{
+
+}
+
 /* just says "current time */
 #current_time_div{
   margin:5vh;
@@ -31,8 +36,17 @@ body {
 #cur_event_time {
   top:15vw;
 }
+
+#cur_event_bar{
+  top:15vw;
+  background-color: #c2dee2;
+  width: .5vw;
+  height: 8vw;
+}
+
 #cur_title{
    top:15vw;
+   color: #c2dee2;
 }
 #cur_event{
    top:20vw;
@@ -41,8 +55,17 @@ body {
 #next_event_time{
   top:30vw;
 }
+
+#next_event_bar{
+  top:30vw;
+  background-color: #dcf456;
+  width: .5vw;
+  height: 8vw;
+}
+
 #next_title{
    top:30vw;
+   color: #dcf456;
 }
 #next_event{
    top:35vw;
@@ -60,5 +83,8 @@ body {
   position:absolute;
   left: 10vw;
 }
-
+.bar{
+  position:absolute;
+  left: 23vw;
+}
 
