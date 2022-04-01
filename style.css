@@ -85,15 +85,16 @@ body {
 
 .title{
   position:absolute;
-  left: 45vw;
+  left: 47vw;
 }
 .description {
   position:absolute;
-  left: 50vw;
+  left: 52vw;
 }
 .time{
   position:absolute;
-  left: 30vw;
+  right: 59vw;
+  text-align: right;
 }
 .bar{
   position:absolute;
@@ -101,7 +102,8 @@ body {
 }
 .location{
   position:absolute;
-  left: 30vw;
+  right: 59vw;
+  text-align: right;
 }
 
 #dashboard_hacks_22{
