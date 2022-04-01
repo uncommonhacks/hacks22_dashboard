@@ -1,10 +1,14 @@
-var DEBUG = true;
+var DEBUG = false;
 
 function time_format(hour, minute){
     var am_pm;
-    if (hour >= 12) {
+    if (hour > 12 &  hour < 24) {
         am_pm = 'pm';
         hour = hour-12;
+    }
+    else if (hour == 24 | hour == 0) {
+        am_pm = 'am';
+        hour = 12
     }
     else {
         am_pm = 'am';
@@ -29,9 +33,9 @@ function update(){
         cur_day = cur_day - 1;
     }
     if (DEBUG) {
-        cur_hours = 18;
-        cur_minutes = 40;
-        cur_day = 1;
+        cur_hours = 22;
+        cur_minutes = 5;
+        cur_day = 3;
     }
     var days = DATA["days"];
     //console.log(days);
@@ -54,6 +58,7 @@ function update(){
                 }
                 else {
                     cur_event = event;
+                    next_event = {"hour":24,"minute":0, "location":"", "text":"More Coming Tomorrow..."};
                 }
             }
             break;

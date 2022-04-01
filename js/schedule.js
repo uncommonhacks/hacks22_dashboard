@@ -1,30 +1,39 @@
 var DATA = {
     "days":[
         {"day":1, "events":[
-            {"hour":17,"minute":0, "location":"JCL 298", "text":"CSS still life"},
-            {"hour":18,"minute":30, "location":"JCL 298<br>JCL 298", "text":"dinner<br>intro to twine games"},
-            {"hour":19,"minute":30, "location":"JCL 298", "text":"social time with UH team"}
+            {"hour":0,"minute":0, "location":"", "text":"Hackathon Coming Soon..."},
+            {"hour":17,"minute":0, "location":"JCL 390", "text":"CSS Still Life"},
+            {"hour":18,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Dinner"},
+            {"hour":18,"minute":30, "location":"JCL 390", "text":"Intro to Twine Games"},
+            {"hour":19,"minute":30, "location":"JCL 390", "text":"Tech Interviewing"},
+            {"hour":20,"minute":30, "location":"JCL 390 <br> & Gather", "text":"Social Time with UH Team"},
+            {"hour":21,"minute":0, "location":"", "text":"Doors Close"}
         ]},
         {"day":2, "events":[
-            {"hour":11,"minute":0, "location":"JCL 298", "text":"check-in + sponsor fair"},
-            {"hour":12,"minute":0, "location":"JCL 298", "text":"team formation"},
-            {"hour":1,"minute":0, "location":"JCL 298", "text":"opening ceremony"},
-            {"hour":2,"minute":0, "location":"JCL 298", "text":"hacking starts"},
-            {"hour":3,"minute":0, "location":"JCL 298", "text":"how social factors influence video games"},
-            {"hour":12,"minute":0, "location":"JCL 298", "text":"board game design"},
-            {"hour":5,"minute":0, "location":"JCL 298", "text":"intro to computational art"},
-            {"hour":6,"minute":0, "location":"JCL 298", "text":"maritime archeology workshop"},
-            {"hour":6,"minute":30, "location":"JCL 298", "text":"dinner"},
-            {"hour":7,"minute":0, "location":"JCL 298", "text":"MLH event: slideshow karaoke"},
-            {"hour":8,"minute":0, "location":"JCL 298", "text":"mystery event"}
+            {"hour":10,"minute":30, "location":"JCL 390 <br> Gather", "text":"Doors Open & Check-In <br> IMC Trading Networking"},
+            {"hour":11,"minute":0, "location":"JCL 390", "text":"Machine Learning @ Spotify"},
+            {"hour":12,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Lunch"},
+            {"hour":12,"minute":30, "location":"JCL 390", "text":"Team Formation"},
+            {"hour":13,"minute":0, "location":"JCL 390", "text":"Opening Ceremony"},
+            {"hour":14,"minute":0, "location":"<br> JCL 298", "text":"Hacking Starts Everywhere <br> Intro to Computational Art"},
+            {"hour":15,"minute":0, "location":"JCL 298", "text":"Programmatic Music"},
+            {"hour":16,"minute":0, "location":"JCL 298", "text":"How Social Factors Influence <br> Video Games"},
+            {"hour":17,"minute":0, "location":"WGL <br> JCL 298", "text":"Board Game Design Workshop <br> Creating Coding Workshop"},
+            {"hour":18,"minute":0, "location":"JCL 390", "text":"Maritime Archeology Talk"},
+            {"hour":19,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Dinner"},
+            {"hour":19,"minute":30, "location":"JCL 390 <br> & Gather", "text":"MLH Event: Slideshow Karaoke"},
+            {"hour":20,"minute":30, "location":"JCL 309 <br> & Gather", "text":"Mystery Event"},
+            {"hour":22,"minute":0, "location":"", "text":"Doors Close"}
         ]},
         {"day":3, "events":[
-            {"hour":9,"minute":30, "location":"JCL 298", "text":"morning meditation"},
-            {"hour":11,"minute":0, "location":"JCL 298", "text":"pitching workshop"},
-            {"hour":11,"minute":30, "location":"JCL 298", "text":"hacker peer feedback session"},
-            {"hour":14,"minute":0, "location":"JCL 298", "text":"hacking ends"},
-            {"hour":14,"minute":0, "location":"JCL 298", "text":"project expo + judging"},
-            {"hour":16,"minute":30, "location":"JCL 298", "text":"closing ceremony + awards"}
+            {"hour":9,"minute":15, "location":"", "text":"Doors Open"},
+            {"hour":9,"minute":30, "location":"JCL 298", "text":"Morning Meditation"},
+            {"hour":11,"minute":0, "location":"JCL 298", "text":"Pitching Workshop"},
+            {"hour":11,"minute":30, "location":"JCL 390", "text":"Hacker Peer Feedback Session"},
+            {"hour":14,"minute":0, "location":"", "text":"Hacking Ends Everywhere"},
+            {"hour":14,"minute":30, "location":"Gather", "text":"Virtual Project Expo + Judging"},
+            {"hour":16,"minute":30, "location":"JCL 390", "text":"Closing Ceremony + Awards"},
+            {"hour":24,"minute":0, "location":"", "text":"See You Next Year!"},
         ]}
     ]
 }
