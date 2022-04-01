@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Rockwell";
+  src: url("fonts/ROCK.TTF") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 html {
   height: 100%;
 }
