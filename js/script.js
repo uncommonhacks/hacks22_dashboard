@@ -6,6 +6,10 @@ function time_format(hour, minute){
         am_pm = 'pm';
         hour = hour-12;
     }
+    else if (hour == 12) {
+        am_pm = 'pm';
+        hour = 12;
+    }
     else if (hour == 24 | hour == 0) {
         am_pm = 'am';
         hour = 12
@@ -33,7 +37,7 @@ function update(){
         cur_day = cur_day - 1;
     }
     if (DEBUG) {
-        cur_hours = 14;
+        cur_hours = 12;
         cur_minutes = 35;
         cur_day = 3;
     }
