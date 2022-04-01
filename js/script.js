@@ -33,8 +33,8 @@ function update(){
         cur_day = cur_day - 1;
     }
     if (DEBUG) {
-        cur_hours = 22;
-        cur_minutes = 5;
+        cur_hours = 14;
+        cur_minutes = 35;
         cur_day = 3;
     }
     var days = DATA["days"];

@@ -31,7 +31,7 @@ var DATA = {
             {"hour":11,"minute":0, "location":"JCL 298", "text":"Pitching Workshop"},
             {"hour":11,"minute":30, "location":"JCL 390", "text":"Hacker Peer Feedback Session"},
             {"hour":14,"minute":0, "location":"", "text":"Hacking Ends Everywhere"},
-            {"hour":14,"minute":30, "location":"Gather", "text":"Virtual Project Expo + Judging"},
+            {"hour":14,"minute":30, "location":"Gather <br> Expo Hall", "text":"Virtual Project Expo + Judging"},
             {"hour":16,"minute":30, "location":"JCL 390", "text":"Closing Ceremony + Awards"},
             {"hour":24,"minute":0, "location":"", "text":"See You Next Year!"},
         ]}
