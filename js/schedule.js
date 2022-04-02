@@ -22,12 +22,13 @@ var DATA = {
             {"hour":18,"minute":0, "location":"JCL 390", "text":"Maritime Archeology Talk"},
             {"hour":19,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Dinner"},
             {"hour":19,"minute":30, "location":"JCL 390 <br> & Gather", "text":"MLH Event: Slideshow Karaoke"},
-            {"hour":20,"minute":30, "location":"JCL 309 <br> & Gather", "text":"Mystery Event"},
+            {"hour":20,"minute":30, "location":"JCL 390 <br> & Gather", "text":"Mystery Event"},
             {"hour":22,"minute":0, "location":"", "text":"Doors Close"}
         ]},
         {"day":3, "events":[
             {"hour":9,"minute":15, "location":"", "text":"Doors Open"},
             {"hour":9,"minute":30, "location":"JCL 298", "text":"Morning Meditation"},
+            {"hour":10,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Breakfast"},
             {"hour":11,"minute":0, "location":"JCL 298", "text":"Pitching Workshop"},
             {"hour":11,"minute":30, "location":"JCL 390", "text":"Hacker Peer Feedback Session"},
             {"hour":14,"minute":0, "location":"", "text":"Hacking Ends Everywhere"},
