@@ -18,7 +18,7 @@ var DATA = {
             {"hour":14,"minute":0, "location":"<br> JCL 298", "text":"Hacking Starts Everywhere <br> Intro to Computational Art"},
             {"hour":15,"minute":0, "location":"JCL 298", "text":"Programmatic Music"},
             {"hour":16,"minute":0, "location":"JCL 298", "text":"How Social Factors Influence <br> Video Games"},
-            {"hour":17,"minute":0, "location":"WGL <br> JCL 298", "text":"Board Game Design Workshop <br> Creating Coding Workshop"},
+            {"hour":17,"minute":0, "location":"WGL <br> JCL 298", "text":"Board Game Design <br> Sound-Responsive Shaders"},
             {"hour":18,"minute":0, "location":"JCL 390", "text":"Maritime Archeology Talk"},
             {"hour":19,"minute":0, "location":"JCL 3rd <br> Floor", "text":"Dinner"},
             {"hour":19,"minute":30, "location":"JCL 390 <br> & Gather", "text":"MLH Event: Slideshow Karaoke"},
